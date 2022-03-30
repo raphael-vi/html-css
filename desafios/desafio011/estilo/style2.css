@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
-    font-family: robo, sans-serif;
-    src: url(/desafio011/fontes/Roboto_Mono/RobotoMono-VariableFont_wght.ttf)
+    font-family: 'IBM Plex Mono', monospace;
+    src: url(/desafio011/fontes/Roboto_Mono/RobotoMono-VariableFont_wght.ttf) format('OpenType');
     
-
 }
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 :root{
     --pret02:#181818;
     --preto01: #0D0D0D;
@@ -13,19 +13,21 @@
     --cinza03: #595959;
     --cinza04: #8C8C8C;
     --branco: #BFBFBF;
-    --fonte1: robo, sans-serif;
+    --fonte1: 'IBM Plex Mono', monospace;
+    --fonte2: 'IM Fell English SC', serif;
 }
 *{
     padding: 0px;
     margin: 0px;
 }
 header{
-    font-weight: bolder;
-    background-image: linear-gradient( to bottom,var(--preto01), var(--pret02), var(--branco));
+    
+    background-image: linear-gradient( to bottom,var(--preto01), var(--pret02)20%, var(--branco)60%);
     height: 200px;
     margin: auto; 
     width: 100%;
     color:#8C8C8C;
+    font-family: var(--fonte2);
     
 }
 header h1{
@@ -50,13 +52,14 @@ header div{
    
 }
 section{
+    
     padding-top: 10vh;
     padding-bottom:10vh;
     line-height: 2em;
     padding-left: 30px;
 }
-section.imagem{
-
+section p{
+    padding-left: 10px;
 }
 section.normal{
     background-color: var(--cinza02);
@@ -65,16 +68,32 @@ section.normal > p{
     background-color:#0000006e;
     color: white;
     width: 400px;
+    display:inline-block;
+}
+section.normal#thunder{
+    background-image: url(/desafio011/images/lonely.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
+
+}
+section.normal#lone{
+    background-image: url(/desafio011/images/trovao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 body{
     background-color: var(--branco);
-    font-family: robo, sans-serif;
+    font-family: var(--fonte1);
     font-size: 1.2em;
 }
 
 footer{
     width: 100%;
    background-color: #0D0D0D;
+   color:#8C8C8C;
+   text-align: center;
 
 }
