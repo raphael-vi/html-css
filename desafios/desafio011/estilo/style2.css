@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: robo, sans-serif;
+    src: url(/desafio011/fontes/Roboto_Mono/RobotoMono-VariableFont_wght.ttf)
+    
+
+}
+
+:root{
+    --pret02:#181818;
+    --preto01: #0D0D0D;
+    --cinza02: #404040;
+    --cinza03: #595959;
+    --cinza04: #8C8C8C;
+    --branco: #BFBFBF;
+    --fonte1: robo, sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    font-weight: bolder;
+    background-image: linear-gradient( to bottom,var(--preto01), var(--pret02), var(--branco));
+    height: 200px;
+    margin: auto; 
+    width: 100%;
+    color:#8C8C8C;
+    
+}
+header h1{
+    padding-top: 30px;
+    margin:auto;
+    text-align: center;
+    font-size: 3em;
+}
+header p{
+    text-align: center;
+    padding-top: 30px;
+    color:#0D0D0D;
+   
+}
+header div{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    position: relative;
+    background-image: url(/desafio011/images/edgarpng.png);  
+   
+}
+section{
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.imagem{
+
+}
+section.normal{
+    background-color: var(--cinza02);
+}
+section.normal > p{
+    background-color:#0000006e;
+    color: white;
+    width: 400px;
+
+}
+body{
+    background-color: var(--branco);
+    font-family: robo, sans-serif;
+    font-size: 1.2em;
+}
+
+footer{
+    width: 100%;
+   background-color: #0D0D0D;
+
+}
