@@ -69,9 +69,11 @@ section p{
     padding: 30px;
     text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.404);
 }
+
 section.normal{
     background-color: var(--cinza02);
     box-shadow: inset 4px 4px 30px 0px rgba(0, 0, 0, 0.719);
+    margin:auto;
 }
 section.normal > p{
     background-color:#0000006e;
