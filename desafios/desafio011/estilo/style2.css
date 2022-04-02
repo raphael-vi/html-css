@@ -79,7 +79,9 @@ section.normal > p{
     background-color:#0000006e;
     color: white;
     width: 400px;
+    min-width: 300px;
     display:inline-block;
+
     
 }
 section.normal#thunder{
