@@ -25,12 +25,12 @@ header{
     background-image: linear-gradient(to bottom, var(--pret02), var(--cinza02), var(--branco));
     height: 200px;
     margin: auto; 
-    width: 100%;
+   
     color:#8C8C8C;
     font-family: var(--fonte2);
     font-family: 'IM Fell English SC', serif;
     background-position: top center;
-
+    
     background-repeat: no-repeat;
     background-size: cover;
     
