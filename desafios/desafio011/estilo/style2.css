@@ -73,10 +73,15 @@ section p{
     text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.404);
 }
 
+section.imagem{
+    background-color: #BFBFBF;
+
+}
 section.normal{
     background-color: var(--cinza02);
     box-shadow: inset 4px 4px 30px 0px rgba(0, 0, 0, 0.719);
     width: auto;
+    background-size: cover;
 
 }
 section.normal > p{
@@ -84,6 +89,7 @@ section.normal > p{
     color: white;
     width: fit-content;
     display:inline-block;
+    margin: 40px;
     
 
     
@@ -91,7 +97,7 @@ section.normal > p{
 section.normal#thunder{
     background-image: url(../images/lonely.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    
     background-attachment: fixed;
     background-position: top center;
 
@@ -100,7 +106,7 @@ section.normal#thunder{
 section.normal#lone{
     background-image: url(../images/trovao.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+   
     background-attachment: fixed;
     background-position: top center;
 }
@@ -115,5 +121,6 @@ footer{
    background-color: #000000;
    color:#8C8C8C;
    text-align: center;
+   width: 100%;
 
 }
