@@ -37,13 +37,16 @@ header h1{
     padding-top: 30px;
     margin:auto;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-family: var(--fonte2);
+    color: var(--branco);
 }
 header p{
     text-align: center;
     padding-top: 30px;
-    color:#fcfcfc;
+    color: var(--preto01);
+    font-size: larger;
+    font-weight: 400;
    
 }
 header div{
@@ -55,6 +58,9 @@ header div{
    
     
    
+}
+main{
+    font-size: 1.2em;
 }
 section{
     
@@ -77,7 +83,7 @@ section.normal{
 section.normal > p{
     background-color:#0000006e;
     color: white;
-    width: 400px;
+    width: fit-content;
     min-width: 400px;
     display:inline-block;
     
