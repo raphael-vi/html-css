@@ -22,7 +22,7 @@
 }
 header{
     
-    background-image:  url(/desafio011/images/Edgar-Allan-Poe-Wiki.jpg);
+    background-image: linear-gradient(to bottom, var(--pret02), var(--cinza02), var(--branco));
     height: 200px;
     margin: auto; 
     width: 100%;
@@ -40,6 +40,7 @@ header h1{
     margin:auto;
     text-align: center;
     font-size: 3em;
+    font-family: var(--fonte2);
 }
 header p{
     text-align: center;
