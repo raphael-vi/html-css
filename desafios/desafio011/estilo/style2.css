@@ -1,11 +1,9 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'IBM Plex Mono', monospace;
-    src: url(/desafio011/fontes/Roboto_Mono/RobotoMono-VariableFont_wght.ttf) format('OpenType');
-    
-}
+   
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
 :root{
     --pret02:#181818;
     --preto01: #0D0D0D;
@@ -53,7 +51,7 @@ header div{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top right;
-    position: absolute;
+
    
     
    
@@ -64,6 +62,7 @@ section{
     padding-bottom:10vh;
     line-height: 2em;
     padding-left: 30px;
+    
 }
 section p{
     padding: 30px;
@@ -73,19 +72,20 @@ section p{
 section.normal{
     background-color: var(--cinza02);
     box-shadow: inset 4px 4px 30px 0px rgba(0, 0, 0, 0.719);
-    margin:auto;
+
 }
 section.normal > p{
     background-color:#0000006e;
     color: white;
     width: 400px;
-    min-width: 300px;
+    min-width: 400px;
     display:inline-block;
+    
 
     
 }
 section.normal#thunder{
-    background-image: url(/desafio011/images/lonely.jpg);
+    background-image: url(../images/lonely.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -94,7 +94,7 @@ section.normal#thunder{
 
 }
 section.normal#lone{
-    background-image: url(/desafio011/images/trovao.jpg);
+    background-image: url(../images/trovao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -107,7 +107,7 @@ body{
 }
 
 footer{
-    width: 100%;
+
    background-color: #000000;
    color:#8C8C8C;
    text-align: center;
