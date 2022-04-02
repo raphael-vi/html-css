@@ -59,11 +59,9 @@ header div{
     
    
 }
-main{
-    font-size: 1.2em;
-}
+
 section{
-    
+    font-size: 1.2em;    
     padding-top: 10vh;
     padding-bottom:10vh;
     line-height: 2em;
